@@ -1,0 +1,25 @@
+# Environment
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large Data & Models
+data/
+diabetic_retinopathy_full_model.pth
+
+# Keep the main model for ease of use
+!dr_efficientnet_weights.pt
+
+# Distribution / Build
+dist/
+build/
+*.egg-info/
+
+# OS specific
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
