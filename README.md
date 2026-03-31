@@ -1,17 +1,23 @@
-# 🩺 OptiVis — AI-Powered Diabetic Retinopathy Diagnostics
-
-> *"Expert-level early detection of diabetic retinopathy for accessible healthcare"*
-
-[![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)](https://www.python.org/)
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.1-red?logo=pytorch)](https://pytorch.org/)
-[![HuggingFace](https://img.shields.io/badge/HuggingFace-Transformers-yellow?logo=huggingface)](https://huggingface.co/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-1.32-red?logo=streamlit)](https://streamlit.io)
+<div align="center">
+  <img src="assets/logo.png" width="220" />
+  <h1>🩺 OptiVis — AI-Powered Diabetic Retinopathy Diagnostics</h1>
+  <i>"Expert-level early detection of diabetic retinopathy for accessible healthcare"</i>
+  <br><br>
+  
+  [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)](https://www.python.org/)
+  [![PyTorch](https://img.shields.io/badge/PyTorch-2.1-red?logo=pytorch)](https://pytorch.org/)
+  [![Streamlit](https://img.shields.io/badge/Streamlit-1.42-red?logo=streamlit)](https://streamlit.io)
+</div>
 
 ---
 
 ## 🎯 Overview
 
-**OptiVis** (formerly RetinAI) is a high-accuracy, web-based AI screening tool that classifies **diabetic retinopathy (DR)** severity from retinal fundus images with clinical-grade precision. It leverages a custom-trained **EfficientNet-B0** model, highly optimized for the **APTOS 2019** dataset using local training weights.
+**OptiVis** is a high-accuracy, web-based AI screening tool that classifies **diabetic retinopathy (DR)** severity from retinal fundus images with clinical-grade precision. It leverages an **EfficientNet-B0** model, highly optimized for the **APTOS 2019** dataset for maximum diagnostic performance.
+
+<div align="center">
+  <img src="assets/screenshot.png" width="800" />
+</div>
 
 ### Key Features
 - **High-Accuracy Inference**: Powered by your custom-trained EfficientNet-B0 "Expert Brain" (`dr_efficientnet_weights.pt`).
