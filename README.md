@@ -108,7 +108,7 @@ OptiVis is a **screening aid only**. It is designed to assist in early detection
 
 ## 📄 License
 
-MIT License — Built for the Hackovium Hackathon to democratise early eye care.
+MIT License 
 
 ---
 
